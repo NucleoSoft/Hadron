@@ -1,39 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&family=Audiowide&family=Nova+Flat&display=swap');
 
-.aurora-outer {
-    background: linear-gradient(-50deg, #00ff55 0%, #6600cc 70%, #6600cc 100%);
-    background-size: 200%;
-   
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.aurora-inner {
-    background: radial-gradient(rgba(0, 0, 0, 0.7), #000 100%);
-    background-size: 200%;
-    
-}
-
-.aurora-inner {
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
-
-.aurora-outer {
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
-
-.text
+@layer components
 {
-  margin-top: 75px;
-  text-align: center;
-  color: white;
-  font-size: 70px;
-  font-family: 'Audiowide';
-  letter-spacing: 3px;
+    .aurora-outer
+    {
+        @apply fixed bg-gradient-to-l from-secondary to-slate-900 h-screen w-full
+    }
+
+    .aurora-middle
+    {
+        @apply fixed bg-gradient-to-tr from-transparent to-primary h-screen w-full bg-opacity-75
+    }
+
+    .aurora-inner
+    {
+        @apply fixed bg-gradient-to-bl from-slate-900 to-transparent h-screen w-full bg-opacity-50
+    }
 }
