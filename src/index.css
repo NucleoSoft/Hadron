@@ -20,4 +20,9 @@
     {
         @apply fixed bg-gradient-to-bl from-slate-900 to-transparent h-screen w-full bg-opacity-50
     }
+
+    .line1
+    {
+        @apply w-11/12 border-white my-5 mx-auto
+    }
 }
