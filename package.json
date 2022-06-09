@@ -9,6 +9,8 @@
     "tauri": "tauri"
   },
   "dependencies": {
+    "@cds/city": "^1.1.0",
+    "@cds/core": "^6.0.1",
     "@tauri-apps/api": "^1.0.0-rc.6",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",

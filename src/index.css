@@ -8,7 +8,7 @@
 {
     .aurora-outer
     {
-        @apply fixed bg-gradient-to-l from-secondary to-slate-900 h-screen w-full
+        @apply fixed bg-gradient-to-l from-secondary to-slate-300 h-screen w-full
     }
 
     .aurora-middle
@@ -18,11 +18,18 @@
 
     .aurora-inner
     {
-        @apply fixed bg-gradient-to-bl from-slate-900 to-transparent h-screen w-full bg-opacity-50
+        @apply fixed bg-gradient-to-bl from-slate-300 to-transparent h-screen w-full bg-opacity-50
     }
 
     .line1
     {
-        @apply w-11/12 border-white my-5 mx-auto
+        @apply w-4/5 border-black my-5 mx-auto
+    }
+
+    .projectOps
+    {
+        @apply bg-slate-300 p-3  flex flex-row items-center rounded-md font-adventpro text-black my-3 text-right
+        hover:text-primary drop-shadow-lg hover:text-shadow-md hover:shadow-primary
+        hover:bg-white transition-all delay-300
     }
 }
