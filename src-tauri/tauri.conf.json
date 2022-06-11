@@ -7,7 +7,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "BestIDE",
+    "productName": "Hadron",
     "version": "0.1.0"
   },
   "tauri": {
@@ -58,9 +58,8 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "Best IDE",
-        "width": 1000,
-        "transparent": true
+        "title": "Hadron IDE",
+        "width": 1000
       }
     ]
   }
