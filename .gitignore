@@ -1,0 +1,5 @@
+node_modules
+
+*.exe
+
+node_modules\electron\dist\electron.exe
